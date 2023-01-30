@@ -8,9 +8,6 @@ Due to the nature of moneylending, the dataset contained many more instances of 
 
 ## Results
 
-Goals for the model:
-- Reliably predict high risk borrowers
-
 ### Interpreting Precision and Recall
 
 | Precision | Recall |
