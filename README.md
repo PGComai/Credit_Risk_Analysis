@@ -16,7 +16,7 @@ Goals for the model:
 | Precision | Recall |
 | --------- | ------ |
 | How many predictions were correct? | How many results were correctly predicted? |
-| Can be thought of as "accuracy" | Can be thought of as "reliability " |
+| Can be thought of as "accuracy" | Can be thought of as "reliability" |
 
 ### Model Performance Without Scaling
 
