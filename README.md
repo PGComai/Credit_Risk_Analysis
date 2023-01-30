@@ -11,7 +11,7 @@ Due to the nature of moneylending, the dataset contained many more instances of 
 Goals for the model:
 - Reliably predict high risk borrowers
 
-### Balanced Accuracy Scores
+### Balanced Accuracy Scores Without Scaling
 
 | Model   | Balanced Accuracy | Precision (low risk / high risk) | Recall (low risk / high risk) |
 | ------- | ----------------- | -------------------------------- | ----------------------------- |
