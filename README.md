@@ -6,6 +6,8 @@ The purpose of this analysis is to test the efficacy of six supervised machine l
 
 Due to the nature of moneylending, the dataset contained many more instances of low risk borrowers than high risk. The goal of testing different models was to compare ways of compensating for this bias, which would otherwise reduce the accuracy of the model.
 
+The assignment did not require the data to be scaled before model training, but I found that doing so improved the performance of most of the models. I show results for both scaled and unscaled data.
+
 ## Results
 
 ### Interpreting Precision and Recall
@@ -38,3 +40,9 @@ Due to the nature of moneylending, the dataset contained many more instances of 
 | EasyEnsemble AdaBoost | 0.93 | 1.00 / 0.07 | 0.94 / 0.93 | 0.97 / 0.14 |
 
 ## Summary
+
+Since the models based off scaled data seem to perform better than those not, I will only consider the former in this summary.
+
+Whether any of these models would work for a lender depends on how tolerant they might be of various types of errors. The AdaBoost model showed high recall for both low risk and high risk detection, but it also showed low precision regarding high risk cases. This means that the model correctly classifies most high risk cases at the expense of accuracy. A lender which uses this model would know that most of the true high risk cases would be detected, but would also have to sift through many false positives (low risk candidates flagged as high risk). If the lender is interested in decreasing the pool of candidates which need to be looked at, the AdaBoost model might be a good fit. It would have to be used in conjunction with humans to sort out the false positives, but it would save time by moving most high risk candidates into a separate pool.
+
+The random forest model 
