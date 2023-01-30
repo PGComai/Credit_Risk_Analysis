@@ -11,6 +11,13 @@ Due to the nature of moneylending, the dataset contained many more instances of 
 Goals for the model:
 - Reliably predict high risk borrowers
 
+### Interpreting Precision and Recall
+
+| Precision | Recall |
+| --------- | ------ |
+| How many predictions were correct? | How many results were correctly predicted? |
+| Can be thought of as "accuracy" | Can be thought of as "reliability " |
+
 ### Model Performance Without Scaling
 
 | Model   | Balanced Accuracy | Precision (low risk / high risk) | Recall (low risk / high risk) |
