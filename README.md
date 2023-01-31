@@ -8,6 +8,8 @@ Due to the nature of moneylending, the dataset contained many more instances of 
 
 The assignment did not require the data to be scaled before model training, but I found that doing so improved the performance of most of the models. I show results for both scaled and unscaled data.
 
+The assignment also asks that images be shown in the readme, but I think these charts look a lot nicer and are easier to read. The images (screenshots of model results) will still be available in the 'images' folder.
+
 ## Results
 
 ### Interpreting Precision and Recall
